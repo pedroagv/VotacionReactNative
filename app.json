@@ -2,6 +2,16 @@
   "expo": {
     "name": "ReactVote",
     "slug": "ReactVote",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "022594ab-7586-474b-a202-b96fb0f58e76"
+      }
+    }
   }
 }
